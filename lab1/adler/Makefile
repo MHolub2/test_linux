@@ -56,8 +56,9 @@ install:
 uninstall: 
 	rm -f $(WAY)
 plot:
-	./plot
+	gnuplot plot1.sh
+
 asm:$(DEPSC)
-	gcc $(DEPSC) $(asmflag)
+	gcc $(DEPSC) $(asmflag) -O2
 
 	
