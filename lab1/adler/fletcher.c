@@ -1,5 +1,11 @@
 #include "adler.h"
 
+/** 
+ *
+ * Uses update_adler32 
+ * See https://ru.wikipedia.org/wiki/Adler-32 for algorithm.
+ */
+
 int main (int argc, char ** argv)
 {
  	int j, i;
