@@ -13,7 +13,7 @@ File_240000 File_250000 File_260000 File_270000 File_280000 File_290000  File_30
 asmflag = -save-temps -fverbose-asm
 
 WAY = /usr/local/bin/test
-.PHONY: all clean start optO0 optO1 optO2 optO3 optOs install uninsytall plot asm
+.PHONY: all clean start optO0 optO1 optO2 optO3 optOs install uninstall plot asm
 
 DEPS:=$(addsuffix .o, $(DEPS))
 DEPSC:=$(addsuffix .c, $(DEPSC))
