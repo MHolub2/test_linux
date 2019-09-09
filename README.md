@@ -1,1 +1,1 @@
-# Hash function by Adler and Fletcher algorithm 
+# Checksum function by Adler and Fletcher algorithm 
